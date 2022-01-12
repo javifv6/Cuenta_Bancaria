@@ -23,7 +23,7 @@ public class Cuenta{
         totalcuentas++;
         //Variables de Instancia 
         this.Nombre_titular = nombre_titular;
-        N_cuenta = totalcuentas;
+        this.N_cuenta = totalcuentas;
     }
 
     /**Ingreso: Ingresa la cantidad indicada en la cuenta que se especifique.
@@ -82,11 +82,19 @@ public class Cuenta{
     public int verSaldo(){
         return this.Saldo;
     }
+
+    /**
+     * Muestra el total de cuentas creadas.
+     */
     public static void mostrarTotalCuentas(){
-        System.err.println("El total de cuentas es "+totalcuentas);
+        System.out.println("El total de cuentas es "+totalcuentas);
     }
+
+    /**
+     * Muestra el total del dinero disponible en el Banco.
+     */
     public static void mostrarAcumulador(){
-        System.err.println("El total disponible en el banco es de:  "+acumuladordisp);
+        System.out.println("El total disponible en el banco es de:  "+acumuladordisp);
     }
 
     //Sobreescribimos el toString
