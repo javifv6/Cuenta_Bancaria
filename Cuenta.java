@@ -1,4 +1,3 @@
-
 /**
  * Crear la clase Cuenta que mantiene la siguiente información por cada cuenta: número de la cuenta, 
  * nombre del titular y saldo. Además existen un tipo de interés que es común a todas las cuentas y que se 
@@ -25,14 +24,9 @@ public class Cuenta{
         //Variables de Instancia 
         this.Nombre_titular = nombre_titular;
         N_cuenta = totalcuentas;
-
-    
     }
-    /**
-     *Ingreso: Ingresa la cantidad indicada en la cuenta que se especifique.
-     */
 
-    /**
+    /**Ingreso: Ingresa la cantidad indicada en la cuenta que se especifique.
      * Método para ingresar la cantidad indicada en la cuenta que se especifique.
      * @param cantidad_ingresar
      * @param cuenta
@@ -67,7 +61,7 @@ public class Cuenta{
      }
 
      /**
-      * ReseteaAcumuladorBanco: Método que pone a 0 el acumulador del banco.  
+      *ReseteaAcumuladorBanco: Método que pone a 0 el acumulador del banco.  
       */
       public void ReseteaAcumuladorBanco(){
         acumuladordisp = 0;
