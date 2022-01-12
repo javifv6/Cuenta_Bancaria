@@ -15,4 +15,6 @@ El interfaz de esta clase debe proporcionar al menos:
 //Mejoras 
 
 El nº de cuenta bancaria autoincrementa automaticamente.
+Muestra el total de cuentas bancarias creadas.
+Muestra el saldo total del Banco.
 
