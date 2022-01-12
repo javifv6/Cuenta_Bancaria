@@ -2,12 +2,13 @@
 public class Cuenta_Test {
 
 
+
     public static void main(String[] args) {
         
         //Creamos un objeto nuevo.
-        Cuenta cuenta1 = new Cuenta ("Titular1");
-        Cuenta cuenta2 = new Cuenta ("Titular2");
-        Cuenta cuenta3 = new Cuenta("dddd");
+        Cuenta cuenta1 = new Cuenta ("Titular 1");
+        Cuenta cuenta2 = new Cuenta ("Titular 2");
+        Cuenta cuenta3 = new Cuenta("Titular 3");
         //Ingresamos 100€ en la cuenta.
         cuenta1.setIngreso(100, 1);
 
@@ -32,6 +33,7 @@ public class Cuenta_Test {
         //Muestra información de la cuenta 2.
         System.out.println(cuenta1.toString());
         System.out.println(cuenta2.toString());
+        System.out.println(cuenta3.toString());
 
     }
     
