@@ -1,5 +1,3 @@
-package BLOQUE_II_COMENZANDO_A_TRABAJAR_CON_POO_Programacion_Orientada_a_Objetos.Practica_5.src.paquete53;
-
 
 /**
  * Crear la clase Cuenta que mantiene la siguiente información por cada cuenta: número de la cuenta, 
@@ -17,16 +15,18 @@ public class Cuenta{
     /**
      * Variables de instancia
      */
-    private int N_cuenta;
+    private int N_cuenta = 0;
     private String Nombre_titular;
     private int Saldo;
 
-    public Cuenta(int n_cuenta, String nombre_titular, int saldo) {
-        N_cuenta = n_cuenta;
-        Nombre_titular = nombre_titular;
-        Saldo = saldo;
+    public Cuenta(String nombre_titular) {
         //Contador de la variable de clase total de cuentas
         totalcuentas++;
+        //Variables de Instancia 
+        this.Nombre_titular = nombre_titular;
+        N_cuenta = totalcuentas;
+
+    
     }
     /**
      *Ingreso: Ingresa la cantidad indicada en la cuenta que se especifique.
